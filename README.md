@@ -47,7 +47,3 @@ npm run dev
 ```bash
 npm run dev
 ```
-
-## Author
-
-Daggubati Kavya
