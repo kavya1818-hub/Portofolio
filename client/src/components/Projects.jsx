@@ -5,9 +5,13 @@ function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
+    console.log(import.meta.env.VITE_API_URL);
     axios
       .get(`${import.meta.env.VITE_API_URL}/api/projects`)
-      .then((res) => setProjects(res.data))
+      .then((res) => {
+        console.log(res.data);
+        setProjects(res.data);
+      })
       .catch((err) => console.log(err));
   }, []);
 
@@ -109,7 +113,7 @@ function Projects() {
 
               <div className="flex flex-wrap gap-3 mb-6">
 
-                {project.techStack.map((tech, i) => (
+                {project.techStack?.map((tech, i) => (
 
                   <span
                     key={i}
