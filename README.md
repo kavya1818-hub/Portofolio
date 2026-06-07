@@ -1,13 +1,17 @@
 # Kavya Portfolio
 
-A modern full stack developer portfolio built using React, Node.js, Express.js and MongoDB.
+A modern full-stack developer portfolio built using React.js, Node.js, Express.js and MongoDB to showcase projects, technical skills, certifications and contact information.
+
+## Live Demo
+
+https://kavya-dev-portfolio.netlify.app
 
 ## Features
 
 * Responsive modern UI
-* Full stack architecture
+* Full-stack architecture
 * Dynamic projects section
-* Contact form with MongoDB storage
+* Contact form integration
 * Certifications section
 * Resume download
 * GitHub and LinkedIn integration
@@ -31,19 +35,34 @@ A modern full stack developer portfolio built using React, Node.js, Express.js a
 ## Projects Included
 
 * IntelliRoute Smart Traffic System
-* NovaCart Ecommerce
+* NovaCart E-Commerce
 * Healthcare Chatbot
-* Healthcare Management System
+* PharmaChain Healthcare Management System
 * Cloud E-Shop Lite
 
-## Run Frontend
+## Installation
+
+### Frontend
 
 ```bash
+cd client
+npm install
 npm run dev
 ```
 
-## Run Backend
+### Backend
 
 ```bash
-npm run dev
+cd server
+npm install
+npm start
 ```
+
+## Deployment
+
+* Frontend: Netlify
+* Backend: Render
+
+## Author
+
+Daggubati Kavya
